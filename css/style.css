@@ -1,0 +1,233 @@
+/* GENERAL CSS*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.resp{
+    width: 100%;
+    height: auto;
+}
+
+span{
+    color: #878f99;
+    font-weight: 700;
+    margin-bottom: 15%;
+}
+
+/* header CSS */
+
+header{
+    background-image: url(../img/image1.png);
+    background-size: cover;
+    height: 100vh;
+    padding-top: 15%;
+    position: relative;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header2{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 35px;
+}
+
+.header1{
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding: 15px 10px;
+    font-family: 'Spartan', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.btn-header{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-top: 1%;
+}
+
+.title a{
+    border: 1px solid white;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 20px;
+}
+
+/* First Container CSS */
+
+.first-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2% 5%;
+}
+
+.img-info{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/portrait.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 25%;
+}
+
+.info-title,strong{
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 2%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.presentation{
+    width: 70%;
+}
+
+h1{
+    font-family: 'Spartan', sans-serif;
+    font-size: 30px;
+    margin-bottom: 1%;
+}
+
+
+.presentation-title{
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 0.5%;
+}
+
+/* seconde css container */
+
+.second-container{
+    background-image: url(../img/skill.jpg);
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.second-container h1{
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    color: white;
+    margin: 1% 0;
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skills h2{
+    text-align: center;
+}
+
+.second-container h2{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* skill bars */
+
+#other{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.otherskills{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.skill-title{
+    border: 1px solid white;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+.skillsBottom {
+	float: left;
+	clear: right;
+	width: 80%;
+	margin: 2px 0px 0px 0px;
+}
+
+.progress {
+    border-radius: 5px;
+    width: 350px; 
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-top: 5%;
+    -moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
+    -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0    #fcfcfc;	 
+	box-shadow: 0 1px 0px #bbbbbb inset, 0 1px 0 #fcfcfc;	  
+}
+
+.progress-bar {
+  background-image: -webkit-linear-gradient(left, #FFF 0%,
+    #FFF 100%);
+  background-image: -moz-linear-gradient(left, #FFF 0%,
+    #FFF 100%);
+  background-image: -o-linear-gradient(left, #FFF 0%,
+    #FFF 100%);
+  background-image: linear-gradient(to right, #FFF 0%,
+    #FFF 100%);
+    height:100%;
+    border-radius: 5px;
+	width:0%;
+}
+
+/* Third CSS container and Timeline */
+.third-container{
+    margin-bottom: 30%;
+}
+
+#exp{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* footers */
+
+footer{
+    background-color: #142745;
+    padding: 2%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul li{
+    list-style: none;
+    width: 10%;
+}

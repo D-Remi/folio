@@ -1,8 +1,7 @@
-.timeline2 {
-  height: 550px;
-  top: calc(100%-600px);
-  position: relative;
+.timeline2{
+  margin:0 auto;
 }
+
 .time span{
     color: #222;
     font-weight: bold;
